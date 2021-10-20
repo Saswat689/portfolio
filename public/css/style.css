@@ -540,7 +540,7 @@ footer span a:hover{
 	flex: 100%;
 }
 .services .services-content .card{
-	width: calc(70% - 10px);
+	width: 80%;
 	margin-bottom: 20px;
 }
 .skills .skills-content .left a{
