@@ -635,9 +635,14 @@ footer span a:hover{
 	background: var(--error);
 	display: none;
 }
-@media (max-width: 500px){
+@media (max-width: 800px){
 	.alert{
 		width: 90%;
+	}
+}
+@media (max-width: 500px){
+	.alert{
+		width: 96%;
 	}
 }
 /*livechat styling*/
@@ -659,7 +664,7 @@ footer span a:hover{
 	display: none;
 }
 
-@media (max-width: 700px){
+@media (max-width: 800px){
 	#livechat{
 		width: 90%;
 		height: 500px;
