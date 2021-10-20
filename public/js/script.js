@@ -42,13 +42,13 @@ $(document).ready(function(){
     });
    //typing animation script
    var typed = new Typed(".typing",{
-    strings: ["Innovator","Backend Dev","Designer","Creator","Sports Lover"],
+    strings: ["Frontend Dev","Backend Dev","Innovator","Learner"],
     typeSpeed: 100,
     bacSpeed: 60,
     loop: true
    })
 var typed = new Typed(".typing-2",{
-    strings: ["Innovator","Backend Dev","Designer","Creator","Sports Lover"],
+    strings: ["Frontend Dev","Backend Dev","Innovator","Learner"],
     typeSpeed: 100,
     bacSpeed: 60,
     loop: true
@@ -101,7 +101,7 @@ $('.close-chat').click(() => {
   $('#livechat').css("left","-1000px");
 })
 
-const socket = io('http://localhost:8000')
+const socket = io('https://saswat-portfolio.herokuapp.com')
 
 function startChat() {
   const name = prompt('What is your name?')
