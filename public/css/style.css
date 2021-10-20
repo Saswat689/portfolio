@@ -92,7 +92,7 @@ html{
 }
 .home{
 	display: flex;
-	background: url("http://localhost:8000/static/assets/banner.jpg") no-repeat center;
+	background: url("https://saswat-portfolio.herokuapp.com/static/assets/banner.jpg") no-repeat center;
 	height: 100vh;
 	color: #000;
 	min-height: 500px;
