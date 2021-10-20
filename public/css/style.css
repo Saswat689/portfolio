@@ -466,6 +466,8 @@ footer span a:hover{
 	}
 	.home{
 		background: url("https://saswat-portfolio.herokuapp.com/static/assets/home-mobile-bg.gif") no-repeat center;
+		height: 100vh;
+	color: #000;
 	}
 	.max-width{
 		padding: 0 50px;
