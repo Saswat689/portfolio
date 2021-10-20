@@ -101,14 +101,15 @@ app.post('/send',(req,res) => {
 				response: response,
 				error: error
 			})
-		}
-		res.status(200).json({
+		} else {
+			res.status(200).json({
 			success: true,
 			message: 'Email sent successfully',
 			response: response,
 			error: null
 		})
 		smtpTransport.close();
+		}
 	});
 })
 
