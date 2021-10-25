@@ -716,6 +716,7 @@ footer span a:hover{
 	#livechat{
 		width: 90%;
 		height: 100vh;
+		top: 0;
 	}
 }
 @media (max-width: 500px){
