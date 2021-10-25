@@ -46,8 +46,8 @@ html{
 	pointer-events:auto;
 }
 .max-width{
-	width: 95%;
-	padding: 0 80px;
+	width: 93%;
+	padding: 0 40px;
 	margin: auto;
 }
 .navbar{
@@ -99,7 +99,6 @@ html{
 	font-family: 'Ubuntu',sans-serif;
 }
 .home .home-content {
-	width: 60%;
 	position: absolute;
 	top: 200px;
 	right: 100px;
@@ -526,9 +525,6 @@ footer span a:hover{
 .home .home-content .text-3:not(span){
 	color: #fff;
 }
-.max-width{
-	max-width: 800px;
-}
 .about .about-content .column{
 	width: 100%;
 }
@@ -566,7 +562,7 @@ footer span a:hover{
 }
 .max-width{
 	width: 100%;
-	padding: 0 25px;
+	padding: 0 33px;
 }
 }
 @media (max-width: 690px){
