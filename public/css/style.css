@@ -716,12 +716,12 @@ footer span a:hover{
 	#livechat{
 		width: 90%;
 		height: 100vh;
-		top: -10px;
+		top: -40px;
 	}
 }
 @media screen and (max-width: 500px){
 	#livechat{
-		width: 100%;
+		width: 90%;
 	}
 }
 #livechat .chatNav{
