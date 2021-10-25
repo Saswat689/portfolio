@@ -57,6 +57,7 @@ html{
 	padding: 15px 0;
 	font-family: 'Ubuntu',sans-serif;
 	transform: all 1.5s ease;
+	z-index: 999;
 }
 .sticky{
 	padding: 13px 0;
@@ -707,6 +708,7 @@ footer span a:hover{
 	border-radius: 13px;
 	 -ms-overflow-style: none;
     scrollbar-width: none;
+    z-index: 1000;
 }
 #livechat ::-webkit-scrollbar{
 	display: none;
@@ -824,4 +826,5 @@ footer span a:hover{
 	position: fixed;
 	right: 79px;
 	bottom: 20px;
+	z-index: 988;
 }
