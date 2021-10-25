@@ -603,6 +603,14 @@ footer span a:hover{
 		margin-bottom: 20px;
 }
 }
+@media screen and (max-width: 700px){
+	.home-content {
+		top: 120px;
+		right: 0;
+		left: 0;
+		margin: 0 43px;
+	}
+}
 @media screen and (max-width: 500px){
 			.home .home-content .text-2{
 	font-size: 50px;
