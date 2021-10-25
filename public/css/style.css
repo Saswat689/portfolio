@@ -619,18 +619,23 @@ footer span a:hover{
     margin: 0 30px;
 }
 .home .home-content .text-1{
-	font-size: 23px;
+	font-size: 18px;
 }
 .home .home-content .text-2{
-	font-size: 70px;
+	font-size: 60px;
 }
 .home .home-content .text-3{
-	font-size: 36px;
+	font-size: 28px;
 	margin: 5px 0;
 }
 .home .home-content .text-3 span{
 	color: crimson;
 }
+}
+@media (max-width: 400px){
+	.home-content {
+		top: 70px;
+	}
 }
 /*alerts*/
 .alert{
