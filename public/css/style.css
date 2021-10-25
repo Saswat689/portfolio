@@ -98,13 +98,11 @@ html{
 	min-height: 500px;
 	font-family: 'Ubuntu',sans-serif;
 }
-.home .max-width{
+.home .home-content {
+	width: 60%;
 	position: absolute;
 	top: 200px;
 	right: 100px;
-}
-.home .home-content {
-	width: 35%;
 }
 .home .home-content .text-1{
 	font-size: 27px;
