@@ -56,7 +56,6 @@ html{
 	background: crimson;
 	padding: 15px 0;
 	font-family: 'Ubuntu',sans-serif;
-	z-index: 200;
 	transform: all 1.5s ease;
 }
 .sticky{
@@ -560,7 +559,7 @@ footer span a:hover{
 	padding: 7px 25px;
 }
 }
-@media (max-width: 947px){
+@media screen and (max-width: 947px){
 	.skills .skills-content .column,
 	.contact .contact-content .column
 	{
@@ -578,7 +577,7 @@ footer span a:hover{
 	padding: 0 33px;
 }
 }
-@media (max-width: 690px){
+@media screen and (max-width: 690px){
 
 	.home .home-content a{
 		font-size: 20px;
@@ -614,6 +613,7 @@ footer span a:hover{
 @media screen and (max-width: 500px){
 			.home .home-content .text-2{
 	font-size: 50px;
+	top: 90px;
 	color: #fff;
 }
 .home .home-content .text-3{
@@ -716,12 +716,12 @@ footer span a:hover{
 	#livechat{
 		width: 90%;
 		height: 100vh;
-		top: 0;
+		top: -10px;
 	}
 }
-@media (max-width: 500px){
+@media screen and (max-width: 500px){
 	#livechat{
-		width: 80%;
+		width: 100%;
 	}
 }
 #livechat .chatNav{
