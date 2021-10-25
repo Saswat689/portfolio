@@ -620,9 +620,6 @@ footer span a:hover{
 	font-size: 27px;
 }
 .home .home-content {
-    top: 90px;
-    right: 0;
-    left: 0;
     margin: 0 30px;
 }
 .home .home-content .text-1{
@@ -641,7 +638,12 @@ footer span a:hover{
 }
 @media screen and (max-width: 400px){
 	.home-content {
-		top: 70px;
+		top: 100px;
+	}
+}
+@media screen and (max-width: 300px){
+	.home-content {
+		top: 80px;
 	}
 }
 /*alerts*/
@@ -681,12 +683,12 @@ footer span a:hover{
 	background: var(--error);
 	display: none;
 }
-@media (max-width: 800px){
+@media screen and (max-width: 800px){
 	.alert{
 		width: 90%;
 	}
 }
-@media (max-width: 500px){
+@media screen and (max-width: 500px){
 	.alert{
 		width: 96%;
 	}
@@ -710,10 +712,10 @@ footer span a:hover{
 	display: none;
 }
 
-@media (max-width: 800px){
+@media screen and (max-width: 800px){
 	#livechat{
 		width: 90%;
-		height: 500px;
+		height: 100vh;
 	}
 }
 @media (max-width: 500px){
