@@ -603,7 +603,7 @@ footer span a:hover{
 		margin-bottom: 20px;
 }
 }
-@media (max-width: 500px){
+@media screen and (max-width: 500px){
 			.home .home-content .text-2{
 	font-size: 50px;
 	color: #fff;
@@ -611,9 +611,8 @@ footer span a:hover{
 .home .home-content .text-3{
 	font-size: 27px;
 }
-.home-content {
-	position: absolute;
-    top: 120px;
+.home .home-content {
+    top: 90px;
     right: 0;
     left: 0;
     margin: 0 30px;
@@ -632,7 +631,7 @@ footer span a:hover{
 	color: crimson;
 }
 }
-@media (max-width: 400px){
+@media screen and (max-width: 400px){
 	.home-content {
 		top: 70px;
 	}
